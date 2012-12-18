@@ -1,0 +1,16 @@
+name: TestPlugin
+main: com.github.recklessbandit.testplugin.TestPlugin
+version: 0.0.1
+
+commands:
+  basic:
+    description: Demo command.
+    usage: /<command> [player]
+    permission: TestPlugin.basic
+    permission-message: You don't have <permission>
+    
+  basic2:
+    description: Demo command 2.
+    usage: /<command>
+    permission: TestPlugin.basic2
+    permission-message: You don't have <permission>  
